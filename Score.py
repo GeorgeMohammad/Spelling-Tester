@@ -1,5 +1,5 @@
 class Score:
-    def computeScore(self, userAnswer, answerKeyVal):
+    def ComputeScore(self, userAnswer, answerKeyVal):
 #string casts ensure valid input
         userAnswer = str(userAnswer)
         answerKeyVal = str(answerKeyVal)
